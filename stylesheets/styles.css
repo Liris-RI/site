@@ -47,7 +47,7 @@ li {margin:0 0 3px 0;}
 #desc a {border-color:#fff; color:#fff; text-decoration:none;}
 
 /* Main content */
-#main {border-right:1px solid #d8d8d8; float:left; margin:0; padding:0 15px 0 0; width:810px;}
+#main {float:left; margin:0; padding:0 15px 0 0; width:810px;}
 
 /* Sidebar */
 #sidebar {float:right; width:260px;}
@@ -60,9 +60,11 @@ ul.sidelink li a:hover {background:#e0e0e0 url(images/corner.gif) top right no-r
 
 /* Footer */
 #footer {background:#fff; border-top:1px solid #d8d8d8; clear:both; margin:0; padding:0;}
-#footer a {color:gray;}
-#footer a:hover {color:#303030;}
+#footer a {color:gray; border-bottom:none;}
+#footer a:hover {color:#303030; border-bottom:1px dotted #505050;}
 #footer p {color:gray; font-size:1.1em; line-height:1.3em; margin:15px 0 0; padding:0;}
+
+.liristheme-logo-tutelle {border-bottom:0px;}
 
 /* Additional classes */
 .photo {background-color:#f0f0f0; border:1px solid #d8d8d8; margin:0 0 15px; padding:2px;}
