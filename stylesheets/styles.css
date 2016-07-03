@@ -1,7 +1,5 @@
-
-
 /* General layout */
-body {background:#e0e0e0; color:#303030; font:69% Verdana, Helvetica, "Lucida Grande", sans-serif; margin:0; padding:15px 0 0;}
+body {background:#e0e0e0; color:#303030; font:80% 'Open Sans', Verdana, Helvetica, "Lucida Grande", sans-serif; margin:0; padding:15px 0 0;}
 #container {background:#fff; margin:0 auto 20px; padding:5px 20px 20px; width:1100px;}
 
 /* Tags */
@@ -40,9 +38,9 @@ li {margin:0 0 3px 0;}
 .activenavitab:hover {color:#fff;}
 
 /* Description */
-#desc {background:#505050 url(images/front.jpg) bottom left repeat-y; clear:both; color:#fff; height:200px;  margin:5px 0 15px; padding:0 0 30px 0;}
+#desc {background:#505050 url(images/front.jpg) bottom left repeat-y; clear:both; color:#fff; margin:5px 0 15px; padding:0 0 1em 0;}
 
-#desc p {font-size:1em; line-height:1.6em; padding:0 0 0 15px; width:440px;}
+#desc p {font-size:1em; line-height:1.6em; padding: 1.3em; width:440px;}
 #desc h2 {color:#fff; padding:15px 15px 0;}
 #desc a {border-color:#fff; color:#fff; text-decoration:none;}
 
