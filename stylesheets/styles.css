@@ -75,4 +75,4 @@ ul.sidelink li a:hover {background:#e0e0e0 url(images/corner.gif) top right no-r
 
 /* Maps */
 #map {height: 600px;}
-.leaflet-popup-close-button {text-decoration: none;}
+.leaflet-popup-close-button {border-bottom: none;}
