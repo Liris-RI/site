@@ -1,6 +1,6 @@
 $(function() {
     var map = L.map('map').fitWorld().setZoom(2);
-    L.tileLayer('http://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
         attribution: 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
         minZoom: 2,
         maxZoom: 18,
