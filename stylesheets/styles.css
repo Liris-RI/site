@@ -70,3 +70,8 @@ ul.sidelink li a:hover {background:#e0e0e0 url(images/corner.gif) top right no-r
 .right {margin:-8px 0 8px 0; text-align:right;}
 .block {background:#f0f0f0; padding:10px;}
 .hide {display:none;}
+.show-map.activelink {font-style: italic;}
+.center {text-align: center;}
+
+/* Maps */
+#map {height: 600px;}

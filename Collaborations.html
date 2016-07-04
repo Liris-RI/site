@@ -4,6 +4,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css" media="screen,projection" />
+    <link rel="stylesheet" href="stylesheets/leaflet.css" />
+    <link rel="stylesheet" href="stylesheets/leaflet.markercluster.css" />
+    <link rel="stylesheet" href="stylesheets/leaflet.markercluster.default.css" />
 	<title>LIRIS – International Relations – Collaborations</title>
 </head>
 
@@ -32,11 +35,12 @@
 		</div>
 
 		<div id="main">
-			<ul>
-				<li><a href="collaborations.html">Collaborations</a></li>
-				<li><a href="publications.html">Publications</a></li>
-				<li><a href="mobility.html">Mobility</a></li>
-			</ul>
+			<p class="center">
+	            <a href="#" id="show-collaborations-map" class="show-map activelink">Collaborations</a> |
+				<a href="#" id="show-publications-map" class="show-map">Publications</a> |
+				<a href="#" id="show-mobility-map" class="show-map">Mobility</a>
+			</p>
+            <div id="map"></div>
 		</div>
 
 		<footer>
@@ -77,5 +81,10 @@
 		</footer>
 
 	</div>
+    
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/leaflet.min.js"></script>
+    <script type="text/javascript" src="javascripts/leaflet.markercluster.min.js"></script>
+    <script type="text/javascript" src="javascripts/map.js"></script>
 </body>
 </html>
