@@ -38,7 +38,7 @@ li {margin:0 0 3px 0;}
 .activenavitab:hover {color:#fff;}
 
 /* Description */
-#desc {background:#505050 url(images/front.jpg) bottom left repeat-y; clear:both; color:#fff; margin:5px 0 15px; padding:0 0 1em 0;}
+#desc {background:#505050 url(../images/front.jpg) bottom left repeat-y; clear:both; color:#fff; margin:5px 0 15px; padding:0 0 1em 0;}
 
 #desc p {font-size:1em; line-height:1.6em; padding: 1.3em; width:440px;}
 #desc h2 {color:#fff; padding:15px 15px 0;}
