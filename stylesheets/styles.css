@@ -13,7 +13,6 @@ p {line-height:1.5em; margin:0 0 15px; text-align:left;}
 ul,ol {margin:0 0 15px 15px; padding:0;}
 li {margin:0 0 3px 0;}
 
-
 /* Site title */
 #logo {position: relative;}
 #logo img {
@@ -77,3 +76,8 @@ ul.sidelink li a:hover {background:#e0e0e0 url(images/corner.gif) top right no-r
 #map {height: 600px;}
 .leaflet-popup-close-button {border-bottom: none !important;}
 .leaflet-popup-close-button:hover {border-bottom: none !important;}
+
+h4.country{margin:0 0 0 20px;}
+ul.fundings{margin: 0 0 0 50px;}
+
+
